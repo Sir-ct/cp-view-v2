@@ -1,0 +1,34 @@
+.row{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 5px 0;
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.right{
+    width: 50%;
+    text-align: center;
+    text-align: left;
+}
+.sn{
+    width: 10%;
+}
+.buttons{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+}
+.btns{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
